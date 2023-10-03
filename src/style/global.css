@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Vlated";
+    src: url("/public/Font/Vlated/VlatedSlabSerif.ttf");
+    font-style: Serif;
+  }
+  
+  @font-face {
+    font-family: "ModernType";
+    src: url("/public/Font/ModenType/ModenType.otf");
+    font-style: Regular;
+  }
+
+  @font-face {
+    font-family: "Kurdis";
+    src: url("/public/Font/Kurdis/Kurdis-Condensed.otf");
+    font-style: Regular;
+  }
+
+  @font-face {
+    font-family: "Kurdis";
+    src: url("/public/Font/Kurdis/Kurdis-CondensedExtraBold.otf");
+    font-style: ExtraBold;
+  }
+  
+  @font-face {
+    font-family: "Physis";
+    src: url("/public/Font/Physis/RNSPhysis-Medium.otf");
+    font-style: Medium;
+  }
+
+  @font-face {
+    font-family: "Physis";
+    src: url("/public/Font/Physis/RNSPhysis-Black.otf");
+    font-style: Black;
+  }
