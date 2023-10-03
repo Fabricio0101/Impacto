@@ -305,7 +305,7 @@ export default function Schedule() {
                                 w="80%"
                                 data-aos="fade-right"
                             >
-                                <Stack w="90%" justifyContent="center" mb="-10px" alignItems="start">
+                                <Stack w="90%" justifyContent="center" mb="-4px" alignItems="start">
                                     <Heading
                                         fontSize="18px"
                                         fontWeight="600"
@@ -314,7 +314,7 @@ export default function Schedule() {
                                         ESCOLHA UMA
                                     </Heading>
                                 </Stack>
-                                <Stack w="80%" mb="-60px" justifyContent="center" alignItems="start">
+                                <Stack w="80%" mb="-53px" justifyContent="center" alignItems="start">
                                     <Heading
                                         fontSize="18px"
                                         fontWeight="600"

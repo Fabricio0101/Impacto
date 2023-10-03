@@ -189,7 +189,7 @@ export default function Footer() {
             {isMobileVersion && (
                 <Flex
                     w="100%"
-                    h="130vh"
+                    h="145vh"
                     bg="#001d3c"
                     justifyContent="center"
                     alignItems="center"
