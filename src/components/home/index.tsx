@@ -115,7 +115,7 @@ export default function Home() {
                     >
                         <Stack
                             mb="-14"
-                            w="65%"
+                            w="58%"
                             justifyContent="center"
                             alignItems="start"
                         >
