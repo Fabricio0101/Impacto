@@ -245,7 +245,7 @@ export default function Footer() {
                         <Stack w="100%" alignItems="center" justifyContent="center">
                             <Heading
                                 color="#fdc73b"
-                                fontSize="70px"
+                                fontSize="60px"
                                 fontFamily="Vlated"
                             >
                                 matrículas<span style={{ fontFamily: 'Vlated', color: '#006bd9', fontSize: '20px' }}>2024</span>
@@ -332,10 +332,11 @@ export default function Footer() {
                             </VStack>
                         </VStack>
                         <Button
-                            w="80%"
+                            w="320px"
+                            h="50px"
                             bg="#fdc73b"
-                            fontWeight="700"
-                            fontSize="10px"
+                            fontWeight="800"
+                            fontSize="12px"
                             transition="0.2s"
                             _hover={{
                                 bg: 'transparent',
