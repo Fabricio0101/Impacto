@@ -314,7 +314,7 @@ export default function Schedule() {
                                         ESCOLHA UMA
                                     </Heading>
                                 </Stack>
-                                <Stack w="75%" mb="-53px" justifyContent="center" alignItems="start">
+                                <Stack w="75%" mb="-49px" justifyContent="center" alignItems="start">
                                     <Heading
                                         fontSize="18px"
                                         fontWeight="600"

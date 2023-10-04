@@ -132,7 +132,7 @@ export default function Home() {
                             justifyContent="center"
                             alignItems="end"
                             w="55%"
-                            mt="-8"
+                            mt="-10"
                         >
                             <Heading fontSize="20px" fontWeight="800" color="#001d3c" fontFamily="ModernType">
                                 COMEÇA<br />AQUI
