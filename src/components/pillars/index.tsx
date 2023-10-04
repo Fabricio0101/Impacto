@@ -167,7 +167,7 @@ export default function Pillars() {
                                 justifyContent="center"
                                 alignItems="end"
                                 mb="-12"
-                                w="88%"
+                                w="100%"
                             >
                                 <Heading
                                     color="#006bd9"
