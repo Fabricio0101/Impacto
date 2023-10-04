@@ -10,6 +10,7 @@ import {
 
 import Israel from '../../assets/IsraelForma.png'
 import Logo from '../../assets/logo.png'
+import bgHomeMobile from '../../assets/bgHomeMobile.png'
 
 import '../../style/global.css'
 
@@ -103,7 +104,8 @@ export default function Home() {
                 <Flex
                     w="100%"
                     h="60vh"
-                    bg="#fef3d9"
+                    bgImage={bgHomeMobile}
+                    bgPosition="center"
                     justifyContent="center"
                     alignItems="center"
                 >

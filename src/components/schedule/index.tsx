@@ -305,7 +305,7 @@ export default function Schedule() {
                                 w="80%"
                                 data-aos="fade-right"
                             >
-                                <Stack w="90%" justifyContent="center" mb="-4px" alignItems="start">
+                                <Stack w="85%" justifyContent="center" mb="-4px" alignItems="start">
                                     <Heading
                                         fontSize="18px"
                                         fontWeight="600"
@@ -314,7 +314,7 @@ export default function Schedule() {
                                         ESCOLHA UMA
                                     </Heading>
                                 </Stack>
-                                <Stack w="80%" mb="-53px" justifyContent="center" alignItems="start">
+                                <Stack w="75%" mb="-53px" justifyContent="center" alignItems="start">
                                     <Heading
                                         fontSize="18px"
                                         fontWeight="600"
@@ -325,7 +325,7 @@ export default function Schedule() {
                                 </Stack>
                                 <Stack>
                                     <Heading
-                                        fontSize="100px"
+                                        fontSize="90px"
                                         color="#006bd9"
                                         fontFamily="Vlated"
                                     >
@@ -337,7 +337,7 @@ export default function Schedule() {
                                 alignItems="center"
                                 justifyContent="end"
                                 w="30%"
-                                data-aos="fade-left"
+                                data-aos="fade-down"
                             >
                                 <Button
                                     bg="#fdc73b"
@@ -359,23 +359,19 @@ export default function Schedule() {
                             </Stack>
                         </VStack>
                     </VStack>
-                    <VStack gap={1}>
+                    <VStack gap={2}>
                         <HStack
-                            gap={1}
+                            gap={2}
                             data-aos="zoom-in"
                         >
                             <Stack
                                 boxShadow="0px 1px 17px 0px rgba(160, 126, 46, 0.25)"
-                                w="180px"
+                                w="160px"
                                 h="130px"
                                 bg="#fef4dc"
                                 borderRadius="10px"
                                 alignItems="center"
                                 justifyContent="center"
-                                transition="0.5s"
-                                _hover={{
-                                    transform: 'scale(1.1)'
-                                }}
                             >
                                 <Image w="70%" src={School} />
                                 <Heading
@@ -388,16 +384,12 @@ export default function Schedule() {
                             </Stack>
                             <Stack
                                 boxShadow="0px 1px 17px 0px rgba(160, 126, 46, 0.25)"
-                                w="180px"
+                                w="160px"
                                 h="130px"
                                 bg="#fef4dc"
                                 borderRadius="10px"
                                 alignItems="center"
                                 justifyContent="center"
-                                transition="0.5s"
-                                _hover={{
-                                    transform: 'scale(1.1)'
-                                }}
                             >
                                 <Image w="40%" src={Sas} />
                                 <Heading
@@ -410,25 +402,22 @@ export default function Schedule() {
                             </Stack>
                         </HStack>
                         <HStack
-                            gap={1}
+                            gap={2}
                             data-aos="zoom-in"
                         >
                             <Stack
                                 boxShadow="0px 1px 17px 0px rgba(160, 126, 46, 0.25)"
-                                w="180px"
+                                w="160px"
                                 h="130px"
                                 bg="#fef4dc"
                                 borderRadius="10px"
                                 alignItems="center"
                                 justifyContent="center"
-                                transition="0.5s"
-                                _hover={{
-                                    transform: 'scale(1.1)'
-                                }}
+
                             >
                                 <Heading
                                     color="#006bd9"
-                                    fontSize="50px"
+                                    fontSize="40px"
                                     fontFamily="Vlated"
                                 >
                                     52anos
@@ -443,20 +432,16 @@ export default function Schedule() {
                             </Stack>
                             <Stack
                                 boxShadow="0px 1px 17px 0px rgba(160, 126, 46, 0.25)"
-                                w="180px"
+                                w="160px"
                                 h="130px"
                                 bg="#fef4dc"
                                 borderRadius="10px"
                                 alignItems="center"
                                 justifyContent="center"
-                                transition="0.5s"
-                                _hover={{
-                                    transform: 'scale(1.1)'
-                                }}
                             >
                                 <Heading
                                     color="#006bd9"
-                                    fontSize="50px"
+                                    fontSize="40px"
                                     fontFamily="Vlated"
                                 >
                                     99%
@@ -471,25 +456,21 @@ export default function Schedule() {
                             </Stack>
                         </HStack>
                         <HStack
-                            gap={1}
+                            gap={2}
                             data-aos="zoom-in"
                         >
                             <Stack
                                 boxShadow="0px 1px 17px 0px rgba(160, 126, 46, 0.25)"
-                                w="180px"
+                                w="160px"
                                 h="130px"
                                 bg="#fef4dc"
                                 borderRadius="10px"
                                 alignItems="center"
                                 justifyContent="center"
-                                transition="0.5s"
-                                _hover={{
-                                    transform: 'scale(1.1)'
-                                }}
                             >
                                 <Heading
                                     color="#006bd9"
-                                    fontSize="30px"
+                                    fontSize="25px"
                                     fontFamily="Vlated"
                                 >
                                     compromisso
@@ -504,17 +485,13 @@ export default function Schedule() {
                             </Stack>
                             <Stack
                                 boxShadow="0px 1px 17px 0px rgba(160, 126, 46, 0.25)"
-                                w="180px"
+                                w="160px"
                                 h="130px"
                                 bg="#fef4dc"
                                 borderRadius="10px"
                                 alignItems="center"
                                 justifyContent="center"
                                 gap={0}
-                                transition="0.5s"
-                                _hover={{
-                                    transform: 'scale(1.1)'
-                                }}
                             >
                                 <Heading
                                     textAlign="center"
@@ -526,7 +503,7 @@ export default function Schedule() {
                                 </Heading>
                                 <Heading
                                     color="#006bd9"
-                                    fontSize="30px"
+                                    fontSize="25px"
                                     fontFamily="Vlated"
                                 >
                                     capacitados
