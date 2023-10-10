@@ -189,7 +189,7 @@ export default function Footer() {
             {isMobileVersion && (
                 <Flex
                     w="100%"
-                    h="145vh"
+                    h="115vh"
                     bg="#001d3c"
                     justifyContent="center"
                     alignItems="center"
@@ -206,66 +206,25 @@ export default function Footer() {
                             alignItems="center"
                             gap={10}
                         >
-                            <Image w="50%" src={logoCurso} />
-                            <VStack>
-                                <Stack
-                                    mb="-45"
-                                    w="78%"
-                                    justifyContent="center"
-                                    alignItems="start"
-                                >
-                                    <Heading fontSize="20px" color="white" fontFamily="ModernType">
-                                        MEU
-                                    </Heading>
-                                </Stack>
-                                <Heading fontSize="80px" color="white" fontFamily="Vlated">
-                                    impacto
-                                </Heading>
-                                <Stack
-                                    justifyContent="center"
-                                    alignItems="end"
-                                    w="74%"
-                                    mt="-5"
-                                >
-                                    <Heading fontSize="20px" color="white" fontFamily="ModernType">
-                                        COMEÇA<br />AQUI
-                                    </Heading>
-                                </Stack>
-                            </VStack>
-                            <Heading
+                            <Image w="80%" src={logoCurso} />
+                            <Button
+                                bg="#fdc73b"
+                                w="210px"
+                                h="70px"
+                                borderRadius="10px"
                                 fontSize="15px"
-                                color="white"
+                                fontWeight="700"
                                 fontFamily="Kurdis"
+                                _hover={{
+                                    bg: 'transparent',
+                                    border: '2px solid #fdc73b',
+                                    color: '#000000',
+                                    fontFamily: 'Kurdis'
+                                }}
                             >
-                                EDUCAÇÃO INFANTIL<br />
-                                FUNDAMENTAL I & II<br />
-                                ENSINO MÉDIO
-                            </Heading>
+                                ENTRE EM CONTATO
+                            </Button>
                         </VStack>
-                        <Stack w="100%" alignItems="center" justifyContent="center">
-                            <Heading
-                                color="#fdc73b"
-                                fontSize="60px"
-                                fontFamily="Vlated"
-                            >
-                                matrículas<span style={{ fontFamily: 'Vlated', color: '#006bd9', fontSize: '20px' }}>2024</span>
-                            </Heading>
-                            <Stack
-                                justifyContent="center"
-                                alignItems="end"
-                                w="90%"
-                                mt="-12"
-                            >
-                                <Heading
-                                    color="#fdc73b"
-                                    fontSize="50px"
-                                    fontWeight="800"
-                                    fontFamily="Vlated"
-                                >
-                                    abertas
-                                </Heading>
-                            </Stack>
-                        </Stack>
                         <VStack gap={10}>
                             <VStack textAlign="center">
                                 <Stack
@@ -331,22 +290,6 @@ export default function Footer() {
                                 </Heading>
                             </VStack>
                         </VStack>
-                        <Button
-                            w="320px"
-                            h="50px"
-                            bg="#fdc73b"
-                            fontWeight="800"
-                            fontSize="12px"
-                            transition="0.2s"
-                            _hover={{
-                                bg: 'transparent',
-                                border: '2px solid #fdc73b',
-                                color: '#fdc73b',
-                                transform: 'scale(1.1)'
-                            }}
-                        >
-                            CLIQUE AQUI E FAÇA A MATRÍCULA DO SEU FILHO
-                        </Button>
                     </VStack>
                 </Flex>
             )}

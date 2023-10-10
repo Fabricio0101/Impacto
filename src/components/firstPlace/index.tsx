@@ -105,7 +105,7 @@ export default function FirstPlace() {
                     alignItems="center"
                     bg="#006bd9"
                     w="100%"
-                    h="70vh"
+                    h="80vh"
                 >
                     <VStack
                         justifyContent="center"
@@ -143,7 +143,7 @@ export default function FirstPlace() {
                                 w="350px"
                                 h="150px"
                                 bgImage={Retangulo}
-                                bgSize="350px"
+                                bgSize="330px"
                                 bgRepeat="no-repeat"
                                 bgPosition="center"
                                 data-aos="zoom-in"
@@ -151,7 +151,7 @@ export default function FirstPlace() {
                                 <Heading
                                     color="#001d3c"
                                     textAlign="center"
-                                    fontSize="50px"
+                                    fontSize="40px"
                                     fontWeight="800"
                                     fontFamily="ModernType"
                                 >
