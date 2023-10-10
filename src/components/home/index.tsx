@@ -4,6 +4,7 @@ import {
     Stack,
     HStack,
     Heading,
+    Button,
     Image,
     useBreakpointValue,
 } from '@chakra-ui/react'
@@ -103,9 +104,11 @@ export default function Home() {
             {isMobileVersion && (
                 <Flex
                     w="100%"
-                    h="60vh"
+                    h="90vh"
                     bgImage={bgHomeMobile}
                     bgPosition="center"
+                    bgRepeat="no-repeat"
+                    bgSize="cover"
                     justifyContent="center"
                     alignItems="center"
                 >
@@ -113,38 +116,40 @@ export default function Home() {
                         justifyContent="center"
                         alignItems="center"
                         w="100%"
-                        gap={5}
+                        gap={8}
                     >
-                        <Stack
-                            mb="-14"
-                            w="58%"
-                            justifyContent="center"
-                            alignItems="start"
-                        >
-                            <Heading fontSize="20px" fontWeight="600" color="#001d3c" fontFamily="ModernType">
-                                MEU
+                        <VStack mt="10">
+                            <Stack
+                                mb="-14"
+                                w="58%"
+                                justifyContent="center"
+                                alignItems="start"
+                            >
+                                <Heading fontSize="20px" fontWeight="600" color="#001d3c" fontFamily="ModernType">
+                                    MEU
+                                </Heading>
+                            </Stack>
+                            <Heading fontSize="90px" color="#006bd9" fontFamily="Vlated">
+                                impacto
                             </Heading>
-                        </Stack>
-                        <Heading fontSize="90px" color="#006bd9" fontFamily="Vlated">
-                            impacto
-                        </Heading>
-                        <Stack
-                            justifyContent="center"
-                            alignItems="end"
-                            w="55%"
-                            mt="-10"
-                        >
-                            <Heading fontSize="20px" fontWeight="800" color="#001d3c" fontFamily="ModernType">
-                                COMEÇA<br />AQUI
-                            </Heading>
-                        </Stack>
-                        <Stack w="100%" alignItems="center" justifyContent="center">
+                            <Stack
+                                justifyContent="center"
+                                alignItems="end"
+                                w="55%"
+                                mt="-10"
+                            >
+                                <Heading fontSize="20px" fontWeight="800" color="#001d3c" fontFamily="ModernType">
+                                    COMEÇA<br />AQUI
+                                </Heading>
+                            </Stack>
+                        </VStack>
+                        <Stack w="100%" alignItems="center" mt="10" justifyContent="center">
                             <Heading
                                 color="#006bd9"
-                                fontSize="40px"
+                                fontSize="50px"
                                 fontFamily="Vlated"
                             >
-                                matrículas <span style={{ fontFamily: 'Vlated', color: '#000000', fontSize: '20px' }}>2024</span>
+                                matrículas<span style={{ fontFamily: 'Vlated', color: '#000000', fontSize: '26px' }}>2024</span>
                             </Heading>
                             <Stack
                                 justifyContent="center"
@@ -174,6 +179,30 @@ export default function Home() {
                                 ENSINO MÉDIO
                             </Heading>
                         </HStack>
+                        <Stack
+                            justifyContent="end"
+                            alignItems="center"
+                            w="100%"
+                            h="120px"
+                        >
+                            <Button
+                                bg="#fdc73b"
+                                w="210px"
+                                h="70px"
+                                borderRadius="10px"
+                                fontSize="15px"
+                                fontWeight="700"
+                                fontFamily="Kurdis"
+                                _hover={{
+                                    bg: 'transparent',
+                                    border: '2px solid #fdc73b',
+                                    color: '#000000',
+                                    fontFamily: 'Kurdis'
+                                }}
+                            >
+                                ENTRE EM CONTATO
+                            </Button>
+                        </Stack>
                     </VStack>
                 </Flex>
             )}

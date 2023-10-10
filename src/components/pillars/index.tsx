@@ -192,7 +192,7 @@ export default function Pillars() {
                             data-aos="fade-right"
                         >
                             <Heading
-                                fontSize="20px"
+                                fontSize="18px"
                                 fontWeight="600"
                                 fontFamily="Kurdis"
                                 textAlign="justify"
@@ -205,11 +205,11 @@ export default function Pillars() {
                     </VStack>
                     <HStack
                         bgImage={Forma}
-                        bgSize="100%"
+                        bgSize="85%"
                         bgPosition="center"
                         bgRepeat="no-repeat"
                         w="100%"
-                        h="100%"
+                        h="110vh"
                         justifyContent="center"
                         alignItems="center"
                         gap="70"
@@ -218,14 +218,14 @@ export default function Pillars() {
                         <VStack
                             alignItems="start"
                             justifyContent="center"
-                            gap="120px"
+                            gap="110px"
                         >
                             <Stack
                                 w="100%"
-                                mt="-60px"
+                                mt="-20px"
                             >
                                 <Heading
-                                    fontSize="25px"
+                                    fontSize="18px"
                                     transform="rotate(10deg)"
                                     fontFamily="Kurdis"
                                 >
@@ -234,9 +234,10 @@ export default function Pillars() {
                             </Stack>
                             <Stack mt="-20px">
                                 <Heading
-                                    fontSize="25px"
+                                    fontSize="18px"
                                     transform="rotate(-30deg)"
                                     fontFamily="Kurdis"
+                                    ml="2"
                                 >
                                     Apender<br />a fazer
                                 </Heading>
@@ -245,11 +246,11 @@ export default function Pillars() {
                         <VStack
                             alignItems="center"
                             justifyContent="end"
-                            gap="120px"
+                            gap="99px"
                         >
-                            <Stack mt="70px">
+                            <Stack mt="50px">
                                 <Heading
-                                    fontSize="22px"
+                                    fontSize="18px"
                                     transform="rotate(-30deg)"
                                     fontFamily="Kurdis"
                                 >
@@ -258,7 +259,7 @@ export default function Pillars() {
                             </Stack>
                             <Stack mt="0px">
                                 <Heading
-                                    fontSize="22px"
+                                    fontSize="18px"
                                     transform="rotate(10deg)"
                                     fontFamily="Kurdis"
                                 >
