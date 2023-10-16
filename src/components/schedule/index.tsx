@@ -24,7 +24,7 @@ export default function Schedule() {
             {!isMobileVersion && (
                 <Flex
                     w="100%"
-                    h="110vh"
+                    h="130vh"
                     bg="#fef4dc"
                     justifyContent="center"
                     alignItems="center"
@@ -100,9 +100,9 @@ export default function Schedule() {
                             </Stack>
                         </HStack>
                     </VStack>
-                    <VStack gap={5}>
+                    <VStack gap={20}>
                         <HStack
-                            gap={5}
+                            gap={20}
                             data-aos="zoom-in"
                         >
                             <Stack
@@ -179,7 +179,7 @@ export default function Schedule() {
                             </Stack>
                         </HStack>
                         <HStack
-                            gap={5}
+                            gap={20}
                             data-aos="zoom-in"
                         >
                             <Stack
