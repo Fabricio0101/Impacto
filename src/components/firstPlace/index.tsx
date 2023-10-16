@@ -39,9 +39,9 @@ export default function FirstPlace() {
                             <Heading
                                 color="white"
                                 fontSize="20px"
-                                fontWeight="100"
+                                fontWeight="400"
                                 data-aos="fade-right"
-                                fontFamily="Kurdis"
+                                lineHeight="30px"
                             >
                                 No Impacto nós firmamos um dos compromissos mais importantes para a vida de qualquer criança ou adolescente: com o seu desenvolvimento pessoal e social.
                             </Heading>
@@ -53,8 +53,8 @@ export default function FirstPlace() {
                                 </Heading>
                             </Stack>
                             <Stack>
-                                <Heading fontSize="24px" data-aos="zoom-in" fontFamily="Kurdis">
-                                    O ALUNO ESTÁ<br />SEMPRE
+                                <Heading fontSize="24px" data-aos="zoom-in">
+                                    O ALUNO ESTÁ<br />SEMPRE EM
                                 </Heading>
                             </Stack>
                             <Stack
@@ -88,9 +88,9 @@ export default function FirstPlace() {
                             <Heading
                                 color="white"
                                 fontSize="20px"
-                                fontWeight="600"
+                                fontWeight="400"
                                 data-aos="fade-left"
-                                fontFamily="Kurdis"
+                                lineHeight="30px"
                             >
                                 Nosso currículo escolar potencializa e valoriza as competências individuais de cada um, preparando o aluno para todas os desafios da vida.
                             </Heading>

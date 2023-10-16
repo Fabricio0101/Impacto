@@ -9,7 +9,7 @@ import {
     useBreakpointValue,
 } from '@chakra-ui/react'
 
-import Israel from '../../assets/IsraelForma.png'
+import Aluno from '../../assets/AlunoForma.png'
 import Logo from '../../assets/logo.png'
 import bgHomeMobile from '../../assets/bgHomeMobile.png'
 
@@ -71,10 +71,10 @@ export default function Home() {
                                 <Stack w="100%" alignItems="start" justifyContent="center">
                                     <Heading
                                         color="#006bd9"
-                                        fontSize="40px"
+                                        fontSize="55px"
                                         fontFamily="Vlated"
                                     >
-                                        matrículas <span style={{ fontFamily: 'Vlated', color: '#000000', fontSize: '20px' }}>2024</span>
+                                        matrículas <span style={{ fontFamily: 'Vlated', color: '#000000', fontSize: '30px' }}>2024</span>
                                     </Heading>
                                     <Stack
                                         justifyContent="center"
@@ -84,7 +84,7 @@ export default function Home() {
                                     >
                                         <Heading
                                             color="#006bd9"
-                                            fontSize="40px"
+                                            fontSize="55px"
                                             fontWeight="800"
                                             fontFamily="Vlated"
                                         >
@@ -95,7 +95,7 @@ export default function Home() {
                             </HStack>
                         </VStack>
                         <Stack>
-                            <Image w="80%" src={Israel} />
+                            <Image w="80%" src={Aluno} />
                         </Stack>
                     </HStack>
                 </Flex>

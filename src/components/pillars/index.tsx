@@ -21,7 +21,7 @@ export default function Pillars() {
             {!isMobileVersion && (
                 <Flex
                     w="100%"
-                    h="90vh"
+                    h="110vh"
                     bg="#fef4dc"
                     justifyContent="center"
                     alignItems="center"
@@ -41,11 +41,11 @@ export default function Pillars() {
                                 justifyContent="center"
                                 alignItems="end"
                                 mb="-10"
-                                w="30%"
+                                w="35%"
                             >
                                 <Heading
                                     color="#006bd9"
-                                    fontSize="30px"
+                                    fontSize="40px"
                                     fontFamily="Vlated"
                                 >
                                     nossos
@@ -54,7 +54,7 @@ export default function Pillars() {
                             <Stack>
                                 <Heading
                                     color="#006bd9"
-                                    fontSize="70px"
+                                    fontSize="90px"
                                     fontFamily="Vlated"
                                 >
                                     pilares
@@ -68,7 +68,6 @@ export default function Pillars() {
                             <Heading
                                 fontSize="20px"
                                 fontWeight="600"
-                                fontFamily="Kurdis"
                             >
                                 Nossa forma de educar prioriza os 4 pilares.
                                 Juntos, eles formam a base para que o nosso aluno
@@ -78,38 +77,36 @@ export default function Pillars() {
                     </HStack>
                     <HStack
                         bgImage={Forma}
-                        bgSize="30%"
+                        bgSize="40%"
                         bgPosition="center"
                         bgRepeat="no-repeat"
                         w="100%"
                         h="100%"
                         justifyContent="center"
                         alignItems="center"
-                        gap="70"
+                        gap="120"
                         data-aos="zoom-in"
                     >
                         <VStack
                             alignItems="start"
                             justifyContent="center"
-                            gap="120px"
+                            gap="200px"
                         >
                             <Stack
                                 w="100%"
                                 mt="-60px"
                             >
                                 <Heading
-                                    fontSize="25px"
+                                    fontSize="35px"
                                     transform="rotate(10deg)"
-                                    fontFamily="Kurdis"
                                 >
                                     Aprender<br />a conhecer
                                 </Heading>
                             </Stack>
                             <Stack mt="-20px">
                                 <Heading
-                                    fontSize="25px"
+                                    fontSize="35px"
                                     transform="rotate(-30deg)"
-                                    fontFamily="Kurdis"
                                 >
                                     Apender<br />a fazer
                                 </Heading>
@@ -118,22 +115,20 @@ export default function Pillars() {
                         <VStack
                             alignItems="center"
                             justifyContent="end"
-                            gap="120px"
+                            gap="200px"
                         >
-                            <Stack mt="70px">
+                            <Stack mt="90px">
                                 <Heading
-                                    fontSize="22px"
+                                    fontSize="35px"
                                     transform="rotate(-30deg)"
-                                    fontFamily="Kurdis"
                                 >
                                     Aprender<br />a conviver
                                 </Heading>
                             </Stack>
-                            <Stack mt="0px">
+                            <Stack mt="-20px">
                                 <Heading
-                                    fontSize="22px"
+                                    fontSize="35px"
                                     transform="rotate(10deg)"
-                                    fontFamily="Kurdis"
                                 >
                                     Apender<br />a ser
                                 </Heading>
