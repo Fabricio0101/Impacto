@@ -13,7 +13,7 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
 
-import logoCurso from '../../assets/logoBranca.png'
+import Logo from '../../assets/logo.png'
 
 export default function Footer() {
 
@@ -44,7 +44,16 @@ export default function Footer() {
                             alignItems="center"
                             gap="20"
                         >
-                            <Image w="20%" src={logoCurso} />
+                            <Stack
+                                bg="#fef4dc"
+                                borderRadius="20px"
+                                alignItems="center"
+                                justifyContent="center"
+                                w="20%"
+                                p="2"
+                            >
+                                <Image w="90%" src={Logo} />
+                            </Stack>
                             <VStack>
                                 <Stack
                                     mb="-45"
@@ -76,7 +85,7 @@ export default function Footer() {
                                 fontFamily="Kurdis"
                             >
                                 EDUCAÇÃO INFANTIL<br />
-                                FUNDAMENTAL I & II<br />
+                                ENSINO FUNDAMENTAL E<br />
                                 ENSINO MÉDIO
                             </Heading>
                         </HStack>
@@ -140,9 +149,9 @@ export default function Footer() {
                                     </Heading>
                                 </Stack>
                             </VStack>
-                            <VStack alignItems="start">
-                                <Heading color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
-                                    UNIDADE I
+                            <VStack alignItems="center">
+                                <Heading textAlign="center" color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
+                                    UNIDADE I <br />ENSINO FUNDAMENTAL E MÉDIO
                                 </Heading>
                                 <Heading color="white" fontSize="14px" fontWeight="400" fontFamily="Physis">
                                     RUA CARUARU, 48
@@ -154,9 +163,9 @@ export default function Footer() {
                                     NATAL/RN
                                 </Heading>
                             </VStack>
-                            <VStack alignItems="start">
-                                <Heading color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
-                                    UNIDADE II - EDUCAÇÃO INFANTIL
+                            <VStack alignItems="center">
+                                <Heading textAlign="center" color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
+                                    UNIDADE II<br />EDUCAÇÃO INFANTIL
                                 </Heading>
                                 <Heading color="white" fontSize="14px" fontWeight="400" fontFamily="Physis">
                                     RUA JOSÉ AMÉRICO, 1470
@@ -169,19 +178,22 @@ export default function Footer() {
                                 </Heading>
                             </VStack>
                         </HStack>
-                        <Button
-                            bg="#fdc73b"
-                            fontWeight="700"
-                            transition="0.2s"
-                            _hover={{
-                                bg: 'transparent',
-                                border: '2px solid #fdc73b',
-                                color: '#fdc73b',
-                                transform: 'scale(1.1)'
-                            }}
-                        >
-                            CLIQUE AQUI E FAÇA A MATRÍCULA DO SEU FILHO
-                        </Button>
+                        <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
+                            target="_blank">
+                            <Button
+                                bg="#fdc73b"
+                                fontWeight="700"
+                                transition="0.2s"
+                                _hover={{
+                                    bg: 'transparent',
+                                    border: '2px solid #fdc73b',
+                                    color: '#fdc73b',
+                                    transform: 'scale(1.1)'
+                                }}
+                            >
+                                CLIQUE AQUI E FAÇA A MATRÍCULA DO SEU FILHO
+                            </Button>
+                        </a>
                     </VStack>
                 </Flex>
             )}
@@ -206,24 +218,36 @@ export default function Footer() {
                             alignItems="center"
                             gap={10}
                         >
-                            <Image w="80%" src={logoCurso} />
-                            <Button
-                                bg="#fdc73b"
-                                w="210px"
-                                h="70px"
-                                borderRadius="10px"
-                                fontSize="15px"
-                                fontWeight="700"
-                                fontFamily="Kurdis"
-                                _hover={{
-                                    bg: 'transparent',
-                                    border: '2px solid #fdc73b',
-                                    color: '#000000',
-                                    fontFamily: 'Kurdis'
-                                }}
+                            <Stack
+                                bg="#fef4dc"
+                                borderRadius="20px"
+                                alignItems="center"
+                                justifyContent="center"
+                                w="55%"
+                                p="2"
                             >
-                                ENTRE EM CONTATO
-                            </Button>
+                                <Image w="90%" src={Logo} />
+                            </Stack>
+                            <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
+                                target="_blank">
+                                <Button
+                                    bg="#fdc73b"
+                                    w="210px"
+                                    h="70px"
+                                    borderRadius="10px"
+                                    fontSize="15px"
+                                    fontWeight="700"
+                                    fontFamily="Kurdis"
+                                    _hover={{
+                                        bg: 'transparent',
+                                        border: '2px solid #fdc73b',
+                                        color: '#000000',
+                                        fontFamily: 'Kurdis'
+                                    }}
+                                >
+                                    ENTRE EM CONTATO
+                                </Button>
+                            </a>
                         </VStack>
                         <VStack gap={10}>
                             <VStack textAlign="center">
@@ -262,8 +286,8 @@ export default function Footer() {
                                 </Stack>
                             </VStack>
                             <VStack alignItems="center" textAlign="justify">
-                                <Heading color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
-                                    UNIDADE I
+                                <Heading textAlign="center" color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
+                                    UNIDADE I <br />ENSINO FUNDAMENTAL E MÉDIO
                                 </Heading>
                                 <Heading color="white" fontSize="14px" fontWeight="400" fontFamily="Physis">
                                     RUA CARUARU, 48
@@ -276,8 +300,8 @@ export default function Footer() {
                                 </Heading>
                             </VStack>
                             <VStack alignItems="center" textAlign="justify">
-                                <Heading color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
-                                    UNIDADE II - EDUCAÇÃO INFANTIL
+                                <Heading textAlign="center" color="#006bd9" fontSize="14px" fontWeight="700" fontFamily="Physis">
+                                    UNIDADE II<br />EDUCAÇÃO INFANTIL
                                 </Heading>
                                 <Heading color="white" fontSize="14px" fontWeight="400" fontFamily="Physis">
                                     RUA JOSÉ AMÉRICO, 1470

@@ -9,7 +9,7 @@ import {
     useBreakpointValue,
 } from '@chakra-ui/react'
 
-import Aluno from '../../assets/AlunoForma.png'
+import Aluno from '../../assets/criancas.png'
 import Logo from '../../assets/logo.png'
 import bgHomeMobile from '../../assets/bgHomeMobile.png'
 
@@ -32,7 +32,7 @@ export default function Home() {
                     justifyContent="center"
                     alignItems="center"
                     gap={0}
-                    pt="20px"
+                    pt="90px"
                 >
                     <HStack
                         justifyContent="center"
@@ -95,7 +95,7 @@ export default function Home() {
                             </HStack>
                         </VStack>
                         <Stack>
-                            <Image w="80%" src={Aluno} />
+                            <Image w="90%" src={Aluno} />
                         </Stack>
                     </HStack>
                 </Flex>
@@ -175,7 +175,7 @@ export default function Home() {
                                 fontFamily="Kurdis"
                             >
                                 EDUCAÇÃO INFANTIL<br />
-                                FUNDAMENTAL I & II<br />
+                                ENSINO FUNDAMENTAL E<br />
                                 ENSINO MÉDIO
                             </Heading>
                         </HStack>
@@ -185,23 +185,26 @@ export default function Home() {
                             w="100%"
                             h="120px"
                         >
-                            <Button
-                                bg="#fdc73b"
-                                w="210px"
-                                h="70px"
-                                borderRadius="10px"
-                                fontSize="15px"
-                                fontWeight="700"
-                                fontFamily="Kurdis"
-                                _hover={{
-                                    bg: 'transparent',
-                                    border: '2px solid #fdc73b',
-                                    color: '#000000',
-                                    fontFamily: 'Kurdis'
-                                }}
-                            >
-                                ENTRE EM CONTATO
-                            </Button>
+                            <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
+                                target="_blank">
+                                <Button
+                                    bg="#fdc73b"
+                                    w="210px"
+                                    h="70px"
+                                    borderRadius="10px"
+                                    fontSize="15px"
+                                    fontWeight="700"
+                                    fontFamily="Kurdis"
+                                    _hover={{
+                                        bg: 'transparent',
+                                        border: '2px solid #fdc73b',
+                                        color: '#000000',
+                                        fontFamily: 'Kurdis'
+                                    }}
+                                >
+                                    ENTRE EM CONTATO
+                                </Button>
+                            </a>
                         </Stack>
                     </VStack>
                 </Flex>
