@@ -43,7 +43,7 @@ export default function FirstPlace() {
                                 data-aos="fade-right"
                                 lineHeight="30px"
                             >
-                                No Impacto nós firmamos um dos compromissos mais importantes para a vida de qualquer criança ou adolescente: com o seu desenvolvimento pessoal e social.
+                                No Impacto, nós firmamos o compromisso mais importante para a vida da criança ou adolescente: o seu desenvolvimento integral.
                             </Heading>
                         </Stack>
                         <VStack w="40%" h="400px" gap={0} justifyContent="center" alignItems="center">
@@ -92,7 +92,7 @@ export default function FirstPlace() {
                                 data-aos="fade-left"
                                 lineHeight="30px"
                             >
-                                Nosso currículo escolar potencializa e valoriza as competências individuais de cada um, preparando o aluno para todas os desafios da vida.
+                                Nosso currículo escolar potencializa e valoriza as competências de cada aluno, preparando-o para todos os desafios da vida.
                             </Heading>
                         </Stack>
                     </HStack>
@@ -105,12 +105,13 @@ export default function FirstPlace() {
                     alignItems="center"
                     bg="#006bd9"
                     w="100%"
-                    h="80vh"
+                    h="100vh"
                 >
                     <VStack
                         justifyContent="center"
                         alignItems="center"
                         w="100%"
+                        gap="10"
                     >
                         <Stack
                             justifyContent="center"
@@ -119,20 +120,18 @@ export default function FirstPlace() {
                         >
                             <Heading
                                 color="white"
-                                fontSize="15px"
-                                fontWeight="100"
+                                fontSize="18px"
+                                fontWeight="400"
                                 data-aos="fade-down"
-                                fontFamily="Kurdis"
                                 textAlign="justify"
                             >
-                                No Impacto nós firmamos um dos compromissos mais importantes para a vida de qualquer criança ou adolescente: com o seu desenvolvimento pessoal e social.
+                                No Impacto, nós firmamos o compromisso mais importante para a vida da criança ou adolescente: o seu desenvolvimento integral.
                             </Heading>
                         </Stack>
                         <VStack w="40%" h="300px" gap={0} justifyContent="center" alignItems="center">
-                            <Heading 
-                                fontSize="24px" 
-                                data-aos="zoom-in" 
-                                fontFamily="Kurdis"
+                            <Heading
+                                fontSize="24px"
+                                data-aos="zoom-in"
                                 textAlign="center"
                             >
                                 AQUI<br />O ALUNO ESTÁ<br />SEMPRE EM
@@ -167,13 +166,12 @@ export default function FirstPlace() {
                         >
                             <Heading
                                 color="white"
-                                fontSize="15px"
-                                fontWeight="600"
-                                data-aos="fade-up"
-                                fontFamily="Kurdis"
+                                fontSize="18px"
+                                fontWeight="400"
+                                data-aos="fade-down"
                                 textAlign="justify"
                             >
-                                Nosso currículo escolar potencializa e valoriza as competências individuais de cada um, preparando o aluno para todas os desafios da vida.
+                                Nosso currículo escolar potencializa e valoriza as competências de cada aluno, preparando-o para todos os desafios da vida.
                             </Heading>
                         </Stack>
                     </VStack>

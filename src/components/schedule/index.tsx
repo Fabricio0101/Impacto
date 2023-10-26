@@ -80,23 +80,26 @@ export default function Schedule() {
                                 w="30%"
                                 data-aos="fade-left"
                             >
-                                <Button
-                                    bg="#fdc73b"
-                                    w="210px"
-                                    h="80px"
-                                    borderRadius="10px"
-                                    fontSize="15px"
-                                    fontWeight="700"
-                                    fontFamily="Kurdis"
-                                    _hover={{
-                                        bg: 'transparent',
-                                        border: '2px solid #fdc73b',
-                                        color: '#000000',
-                                        fontFamily: 'Kurdis'
-                                    }}
-                                >
-                                    CLIQUE AQUI E AGENDE<br />UMA VISITA COM<br />NOSSOS CONSULTORES
-                                </Button>
+                                <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
+                                    target="_blank">
+                                    <Button
+                                        bg="#fdc73b"
+                                        w="210px"
+                                        h="80px"
+                                        borderRadius="10px"
+                                        fontSize="15px"
+                                        fontWeight="700"
+                                        fontFamily="Kurdis"
+                                        _hover={{
+                                            bg: 'transparent',
+                                            border: '2px solid #fdc73b',
+                                            color: '#000000',
+                                            fontFamily: 'Kurdis'
+                                        }}
+                                    >
+                                        CLIQUE AQUI E AGENDE<br />UMA VISITA COM<br />NOSSOS CONSULTORES
+                                    </Button>
+                                </a>
                             </Stack>
                         </HStack>
                     </VStack>
@@ -124,7 +127,7 @@ export default function Schedule() {
                                     fontSize="16px"
                                     fontFamily="Kurdis"
                                 >
-                                    PROGRAMA<br />BÍLINGUE
+                                    PROGRAMA<br />BILÍNGUE
                                 </Heading>
                             </Stack>
                             <Stack
@@ -146,7 +149,7 @@ export default function Schedule() {
                                     fontSize="16px"
                                     fontFamily="Kurdis"
                                 >
-                                    UMA DAS MELHORES<br />PLATAFORMAS DE<br />EDUCAÇÃO DO BRASIL
+                                    A TERCEIRA MELHOR<br />PLATAFORMA DE<br />EDUCAÇÃO DO BRASIL
                                 </Heading>
                             </Stack>
                             <Stack
@@ -167,7 +170,7 @@ export default function Schedule() {
                                     fontSize="50px"
                                     fontFamily="Vlated"
                                 >
-                                    52anos
+                                    51anos
                                 </Heading>
                                 <Heading
                                     textAlign="center"
@@ -200,7 +203,7 @@ export default function Schedule() {
                                     fontSize="50px"
                                     fontFamily="Vlated"
                                 >
-                                    99%
+                                    70%
                                 </Heading>
                                 <Heading
                                     textAlign="center"
@@ -339,23 +342,26 @@ export default function Schedule() {
                                 w="30%"
                                 data-aos="fade-down"
                             >
-                                <Button
-                                    bg="#fdc73b"
-                                    w="210px"
-                                    h="80px"
-                                    borderRadius="10px"
-                                    fontSize="15px"
-                                    fontWeight="700"
-                                    fontFamily="Kurdis"
-                                    _hover={{
-                                        bg: 'transparent',
-                                        border: '2px solid #fdc73b',
-                                        color: '#000000',
-                                        fontFamily: 'Kurdis'
-                                    }}
-                                >
-                                    CLIQUE AQUI E AGENDE<br />UMA VISITA COM<br />NOSSOS CONSULTORES
-                                </Button>
+                                <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
+                                    target="_blank">
+                                    <Button
+                                        bg="#fdc73b"
+                                        w="210px"
+                                        h="80px"
+                                        borderRadius="10px"
+                                        fontSize="15px"
+                                        fontWeight="700"
+                                        fontFamily="Kurdis"
+                                        _hover={{
+                                            bg: 'transparent',
+                                            border: '2px solid #fdc73b',
+                                            color: '#000000',
+                                            fontFamily: 'Kurdis'
+                                        }}
+                                    >
+                                        CLIQUE AQUI E AGENDE<br />UMA VISITA COM<br />NOSSOS CONSULTORES
+                                    </Button>
+                                </a>
                             </Stack>
                         </VStack>
                     </VStack>
@@ -379,7 +385,7 @@ export default function Schedule() {
                                     fontSize="16px"
                                     fontFamily="Kurdis"
                                 >
-                                    PROGRAMA<br />BÍLINGUE
+                                    PROGRAMA<br />BILÍNGUE
                                 </Heading>
                             </Stack>
                             <Stack
@@ -397,7 +403,7 @@ export default function Schedule() {
                                     fontSize="16px"
                                     fontFamily="Kurdis"
                                 >
-                                    UMA DAS MELHORES<br />PLATAFORMAS DE<br />EDUCAÇÃO DO BRASIL
+                                    A TERCEIRA MELHOR<br />PLATAFORMA DE<br />EDUCAÇÃO DO BRASIL
                                 </Heading>
                             </Stack>
                         </HStack>
@@ -420,7 +426,7 @@ export default function Schedule() {
                                     fontSize="40px"
                                     fontFamily="Vlated"
                                 >
-                                    52anos
+                                    51anos
                                 </Heading>
                                 <Heading
                                     textAlign="center"
@@ -444,7 +450,7 @@ export default function Schedule() {
                                     fontSize="40px"
                                     fontFamily="Vlated"
                                 >
-                                    99%
+                                    70%
                                 </Heading>
                                 <Heading
                                     textAlign="center"
