@@ -13,7 +13,7 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
 
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/Logos-Impacto.png'
 
 export default function Footer() {
 
@@ -44,16 +44,7 @@ export default function Footer() {
                             alignItems="center"
                             gap="20"
                         >
-                            <Stack
-                                bg="#fef4dc"
-                                borderRadius="20px"
-                                alignItems="center"
-                                justifyContent="center"
-                                w="20%"
-                                p="2"
-                            >
-                                <Image w="90%" src={Logo} />
-                            </Stack>
+                            <Image w="12%" src={Logo} />
                             <VStack>
                                 <Stack
                                     mb="-45"
@@ -218,16 +209,7 @@ export default function Footer() {
                             alignItems="center"
                             gap={10}
                         >
-                            <Stack
-                                bg="#fef4dc"
-                                borderRadius="20px"
-                                alignItems="center"
-                                justifyContent="center"
-                                w="55%"
-                                p="2"
-                            >
-                                <Image w="90%" src={Logo} />
-                            </Stack>
+                            <Image w="60%" src={Logo} />
                             <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
                                 target="_blank">
                                 <Button
