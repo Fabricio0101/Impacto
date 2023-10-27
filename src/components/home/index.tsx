@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 import Aluno from '../../assets/criancas.png'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/Logos-Impacto.png'
 import bgHomeMobile from '../../assets/bgHomeMobile.png'
 
 import '../../style/global.css'
