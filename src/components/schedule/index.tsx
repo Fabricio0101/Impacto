@@ -80,8 +80,7 @@ export default function Schedule() {
                                 w="30%"
                                 data-aos="fade-left"
                             >
-                                <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
-                                    target="_blank">
+                                <a href="https://impactorn.easyschool.com.br/app/contato/" target="_blank">
                                     <Button
                                         bg="#fdc73b"
                                         w="210px"
@@ -97,7 +96,7 @@ export default function Schedule() {
                                             fontFamily: 'Kurdis'
                                         }}
                                     >
-                                        CLIQUE AQUI E AGENDE<br />UMA VISITA COM<br />NOSSOS CONSULTORES
+                                        CLIQUE AQUI PARA<br />FAZER IMPACTO
                                     </Button>
                                 </a>
                             </Stack>
@@ -342,8 +341,7 @@ export default function Schedule() {
                                 w="30%"
                                 data-aos="fade-down"
                             >
-                                <a href="https://api.whatsapp.com/send/?phone=5584994606377&text&type=phone_number&app_absent=0"
-                                    target="_blank">
+                                <a href="https://impactorn.easyschool.com.br/app/contato/" target="_blank">
                                     <Button
                                         bg="#fdc73b"
                                         w="210px"
@@ -359,7 +357,7 @@ export default function Schedule() {
                                             fontFamily: 'Kurdis'
                                         }}
                                     >
-                                        CLIQUE AQUI E AGENDE<br />UMA VISITA COM<br />NOSSOS CONSULTORES
+                                        CLIQUE AQUI PARA<br />FAZER IMPACTO
                                     </Button>
                                 </a>
                             </Stack>
