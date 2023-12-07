@@ -108,7 +108,7 @@ export default function Pillars() {
                                     fontSize="35px"
                                     transform="rotate(-30deg)"
                                 >
-                                    Apender<br />a fazer
+                                    Aprender<br />a fazer
                                 </Heading>
                             </Stack>
                         </VStack>
@@ -130,7 +130,7 @@ export default function Pillars() {
                                     fontSize="35px"
                                     transform="rotate(10deg)"
                                 >
-                                    Apender<br />a ser
+                                    Aprender<br />a ser
                                 </Heading>
                             </Stack>
                         </VStack>
@@ -234,7 +234,7 @@ export default function Pillars() {
                                     fontFamily="Kurdis"
                                     ml="2"
                                 >
-                                    Apender<br />a fazer
+                                    Aprender<br />a fazer
                                 </Heading>
                             </Stack>
                         </VStack>
@@ -258,7 +258,7 @@ export default function Pillars() {
                                     transform="rotate(10deg)"
                                     fontFamily="Kurdis"
                                 >
-                                    Apender<br />a ser
+                                    Aprender<br />a ser
                                 </Heading>
                             </Stack>
                         </VStack>
